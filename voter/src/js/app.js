@@ -28,25 +28,37 @@ function resultsPage() {
 //   this.classList.toggle("clicked");
 // });
 
-function setColor(e) {
-  var target = e.target,
-    count = +target.dataset.count;
+// function setColor(e) {
+//   var target = e.target,
+//     count = +target.dataset.count;
 
-  target.style.backgroundColor = count === 1 ? "#7FFF00" : "#FFFFFF";
-  target.dataset.count = count === 1 ? 0 : 1;
-  /* 
+//   target.style.backgroundColor = count === 1 ? "#7FFF00" : "#FFFFFF";
+//   target.dataset.count = count === 1 ? 0 : 1;
+//   /*
 
-   () : ? - this is conditional (ternary) operator - equals 
+//    () : ? - this is conditional (ternary) operator - equals
 
-   if (count === 1) {
-      target.style.backgroundColor = "#7FFF00";
-      target.dataset.count = 0;
-   } else {
-      target.style.backgroundColor = "#FFFFFF";
-      target.dataset.count = 1;
-   } 
-   target.dataset - return all "data attributes" for current element, 
-   in the form of object, 
-   and you don't need use global variable in order to save the state 0 or 1
-  */
+//    if (count === 1) {
+//       target.style.backgroundColor = "#7FFF00";
+//       target.dataset.count = 0;
+//    } else {
+//       target.style.backgroundColor = "#FFFFFF";
+//       target.dataset.count = 1;
+//    }
+//    target.dataset - return all "data attributes" for current element,
+//    in the form of object,
+//    and you don't need use global variable in order to save the state 0 or 1
+//   */
+// }
+
+function setColor(event, buttonIndex) {
+  // Reset background color of all buttons
+  var buttons = document.querySelectorAll(".circular-button");
+  buttons.forEach(function (button) {
+    button.style.backgroundColor = "";
+  });
+
+  // Set background color of clicked button
+  var targetButton = event.target;
+  targetButton.style.backgroundColor = "blue"; // Change color to blue, you can change to any color you want
 }
