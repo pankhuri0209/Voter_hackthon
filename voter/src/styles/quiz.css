@@ -38,21 +38,35 @@ body {
   font-size: 1.2em;
   cursor: pointer;
   display: block;
-  margin-left: auto;
+
   margin-right: auto;
   font-weight: bold;
   width: 200px;
   height: 50px;
 }
+
 .prev {
-  background-color: orange;
-  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  color: #3164f4;
   padding: 0.5rem 1rem;
-  border: none;
+  border: solid 1px #3164f4;
   outline: none;
-  border-radius: 20px;
+  border-radius: 5px;
   font-size: 0.8rem;
   font-weight: bold;
   cursor: pointer;
+  width: 200px;
+  height: 50px;
   transition: scale 0.2 ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prev:hover {
+  scale: 1.05;
+  color: #fff;
+}
+
+.prev:active {
+  scale: 0.95;
 }
