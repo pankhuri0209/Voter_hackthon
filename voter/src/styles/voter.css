@@ -1,0 +1,162 @@
+body {
+  background-color: #ededed; /* Light Gray */
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles for the navigation bar */
+.navbar {
+  /* background-color: #333; */
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #ddd; /* Light gray background on hover */
+  color: black;
+}
+
+.votesmart {
+  font-weight: bold; /* Increased font weight */
+  font-size: 20px; /* Increased font size */
+}
+
+.vote-confidence {
+  text-align: center;
+  /* padding: 20px; */
+  font-size: 2em; /* Bigger font size */
+}
+.header-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+}
+.vote-header {
+  margin-top: 33px;
+}
+
+/* Style for the "Start Now" button */
+.start-now-button {
+  background-color: #3164f4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+}
+
+.how-it-works {
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 10px; /* Add border radius */
+  display: inline-block; /* Make it inline block */
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+/* Styles for the content */
+.content {
+  text-align: center;
+  width: 70%;
+  background-color: white;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* Style for the candidate heading */
+.content h2 {
+  color: black;
+  text-align: left;
+  margin-left: 50px;
+  display: flex;
+  /* width: 40%; */
+}
+.content-candiate {
+  text-align: left;
+  margin-left: 50px;
+  font-weight: 350;
+  /* width: 40%; */
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.try-now-button {
+  background-color: #3164f4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  display: block;
+  margin-left: 50px;
+  width: 111px;
+  height: 37px;
+}
+
+.left-content {
+  width: 50%;
+}
+.right-content {
+  width: 50%;
+}
+
+.content-1 {
+  text-align: center;
+  width: 70%;
+  background-color: white;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+}
+.start-now-button-1 {
+  background-color: #3164f4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  display: block;
+  margin-left: 50px;
+  width: 125px;
+  height: 40px;
+}
+.voted-image {
+  height: 250px;
+}
+.right-content-1 {
+  width: 50%;
+  text-align: left;
+}

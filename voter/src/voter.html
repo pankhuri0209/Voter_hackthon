@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/voter.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Vote Smart</title>
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <a href="#" class="votesmart">Vote Smart</a>
+        <a href="#">Home</a>
+        <a href="#">Quiz</a>
+        <a href="#">About Us</a>
+      </div>
+
+      <div class="vote-header">
+        <img src="logos/Image.png" alt="Image" class="header-image" />
+        <h1 class="vote-confidence">Vote With <br />Confidence .</h1>
+        <button
+          onclick="window.location.href='destination.html'"
+          class="start-now-button"
+        >
+          Start Now
+        </button>
+        <button class="how-it-works">See how it Works</button>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="left-content">
+        <h2>
+          Know What Candidate <br />
+          Fits You Best
+        </h2>
+
+        <p class="content-candiate">
+          Determine which political candidates best <br />
+          align with your political views
+        </p>
+        <button class="try-now-button">Try Now</button>
+      </div>
+      <div class="right-content">
+        <img src="logos/building.png" alt="Image" class="building-image" />
+      </div>
+    </div>
+    <br /><br />
+    <div class="content-1">
+      <div class="left-content">
+        <h2>How it works</h2>
+        <img src="logos/voted.png" alt="Image" class="voted-image" />
+        <p class="content-candiate">
+          Just 3 simple steps to minimize your election
+          <br />decision process .
+        </p>
+        <button id="quiz-page" onclick="quizPage()" class="start-now-button-1">
+          Start Now
+        </button>
+      </div>
+      <div class="right-content-1">
+        <h3>Step 1</h3>
+
+        <p>Answer short questions based on your political efs.</p>
+        <br />
+        <h3>Step 2</h3>
+
+        <p>
+          Our algorithm combined with our AI model <br />will take your
+          responses and compare them <br />to our voter records to see which
+          candidate <br />you match up with.
+        </p>
+        <br />
+        <h3>Step 3</h3>
+
+        <p>
+          Congrats! You will recieve the candidate that <br />
+          best aligns with your political views.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
